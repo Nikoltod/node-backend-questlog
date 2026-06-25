@@ -1,4 +1,5 @@
 import { setImmediate } from "timers/promises";
+import { performance } from "perf_hooks";
 
 function log(message: string) {
   const time = performance.now().toFixed(0).padStart(6, " ");
