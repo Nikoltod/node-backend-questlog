@@ -8,7 +8,8 @@
     "lab:runtime": "tsx labs/01-runtime-basics/index.ts",
     "lab:sync": "tsx labs/02-sync-vs-async/index.ts",
     "lab:event-loop": "tsx labs/03-event-loop-ordering/index.ts",
-    "lab:workers": "tsx labs/05-offloading-worker-threads/index.ts"
+    "lab:workers": "tsx labs/05-offloading-worker-threads/index.ts",
+    "lab:threadpool": "tsx labs/06-libuv-threadpool/index.ts"
   },
   "keywords": [],
   "author": "",
