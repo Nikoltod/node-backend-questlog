@@ -7,7 +7,7 @@ Understand how Node.js handles HTTP requests and responses without using Express
 ## Run
 
 ```bash
-node index.ts
+npm run lab:http
 ```
 
 ## Try

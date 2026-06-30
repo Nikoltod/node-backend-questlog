@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from "node:http";
+import * as http from "node:http";
 
-const http = require("node:http");
 const PORT = 3000;
 
 function log(message: string) {
