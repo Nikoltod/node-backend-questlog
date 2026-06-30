@@ -21,4 +21,3 @@ During the async sleep, the heartbeat continues.
 Blocking work freezes the event loop.
 
 Async work allows Node.js to keep handling other tasks while waiting.
-EOF
