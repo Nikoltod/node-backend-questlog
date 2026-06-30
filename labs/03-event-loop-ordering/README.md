@@ -7,7 +7,7 @@ Understand the basic execution order of synchronous code, microtasks, timers, im
 ## Run
 
 ```bash
-node index.ts
+npm run lab:event-loop
 ```
 
 ## What to notice

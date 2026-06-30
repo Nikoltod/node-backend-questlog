@@ -7,7 +7,7 @@ Understand how Node.js streams process large data piece by piece without loading
 ## Run
 
 ```bash
-node index.ts
+npm run lab:streams
 ```
 
 ## What to notice

@@ -7,7 +7,7 @@ Understand what Node.js Buffers are and why they matter when working with files,
 ## Run
 
 ```bash
-node index.ts
+npm run lab:buffers
 ```
 
 ## What to notice

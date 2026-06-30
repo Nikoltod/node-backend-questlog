@@ -7,7 +7,7 @@ Understand what Node.js exposes about the running process.
 ## Run
 
 ```bash
-node index.ts
+npm run lab:runtime
 ```
 
 ## What to notice

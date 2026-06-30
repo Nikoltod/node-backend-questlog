@@ -7,7 +7,7 @@ Understand the difference between blocking synchronous work and non-blocking asy
 ## Run
 
 ```bash
-node index.ts
+npm run lab:sync
 ```
 
 ## What to notice

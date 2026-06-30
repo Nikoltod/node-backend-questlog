@@ -7,7 +7,7 @@ Understand that some asynchronous Node.js APIs use libuv's internal threadpool t
 ## Run
 
 ```bash
-node index.ts
+node run lab:libuv
 ```
 
 Optional:

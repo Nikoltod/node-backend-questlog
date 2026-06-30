@@ -8,8 +8,13 @@
     "lab:runtime": "tsx labs/01-runtime-basics/index.ts",
     "lab:sync": "tsx labs/02-sync-vs-async/index.ts",
     "lab:event-loop": "tsx labs/03-event-loop-ordering/index.ts",
+    "lab:partitioning": "tsx labs/04-partitioning-cpu-work/index.ts",
     "lab:workers": "tsx labs/05-offloading-worker-threads/index.ts",
-    "lab:threadpool": "tsx labs/06-libuv-threadpool/index.ts"
+    "lab:libuv": "tsx labs/06-libuv-threadpool/index.ts",
+    "lab:streams": "tsx labs/07-streams-and-backpressure/index.ts",
+    "lab:buffers": "tsx labs/08-buffers-and-binary-data/index.ts",
+    "lab:http": "tsx labs/09-raw-http-server/index.ts",
+    "lab:fastify": "tsx labs/10-fastify-api/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +22,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^26.0.1",
+    "fastify": "^5.9.0",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   }

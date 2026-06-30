@@ -7,7 +7,7 @@ Understand how to move CPU-heavy work away from the main JavaScript thread using
 ## Run
 
 ```bash
-node index.ts
+npm run lab:workers
 ```
 
 ## What to notice
