@@ -152,7 +152,7 @@ app.patch<{
         const quest = quests.find((item) => item.id === questId);
 
         if (!quest) {
-            throw new Error(`Quest was not found`);
+            throw new NotFoundError("Quest not found");
         }
 
         quest.completed = true;
