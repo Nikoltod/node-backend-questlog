@@ -14,7 +14,8 @@
     "lab:streams": "tsx labs/07-streams-and-backpressure/index.ts",
     "lab:buffers": "tsx labs/08-buffers-and-binary-data/index.ts",
     "lab:http": "tsx labs/09-raw-http-server/index.ts",
-    "lab:fastify": "tsx labs/10-fastify-api/index.ts"
+    "lab:fastify": "tsx labs/10-fastify-api/index.ts",
+    "lab:validation": "tsx labs/11-validation-and-errors/index.ts"
   },
   "keywords": [],
   "author": "",
