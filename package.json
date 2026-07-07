@@ -17,7 +17,8 @@
     "lab:fastify": "tsx labs/10-fastify-api/index.ts",
     "lab:validation": "tsx labs/11-validation-and-errors/index.ts",
     "lab:structure": "tsx labs/12-fastify-project-structure/src/server.ts",
-    "lab:layers": "tsx labs/13-services-and-repositories/src/server.ts"
+    "lab:layers": "tsx labs/13-services-and-repositories/src/server.ts",
+    "lab:modules": "tsx labs/14-modular-feature-structure/src/server.ts"
   },
   "keywords": [],
   "author": "",
