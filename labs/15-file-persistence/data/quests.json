@@ -1,0 +1,21 @@
+{
+  "nextQuestId": 2,
+  "quests": [
+    {
+      "id": 1,
+      "title": "Persist quests to a file",
+      "difficulty": "medium",
+      "completed": false,
+      "createdAt": "2026-07-09T17:41:53.982Z",
+      "completedAt": null
+    },
+    {
+      "id": 2,
+      "title": "Persist quests to a file #2",
+      "difficulty": "hard",
+      "completed": true,
+      "createdAt": "2026-07-09T17:41:53.982Z",
+      "completedAt": "2026-07-09T17:41:53.982Z"
+    }
+  ]
+}
