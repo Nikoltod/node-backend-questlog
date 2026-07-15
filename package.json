@@ -19,7 +19,8 @@
     "lab:structure": "tsx labs/12-fastify-project-structure/src/server.ts",
     "lab:layers": "tsx labs/13-services-and-repositories/src/server.ts",
     "lab:modules": "tsx labs/14-modular-feature-structure/src/server.ts",
-    "lab:file-persistence": "tsx labs/15-file-persistence/src/server.ts"
+    "lab:file-persistence": "tsx labs/15-file-persistence/src/server.ts",
+    "lab:postgres": "tsx labs/16-postgres-persistence/src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -27,8 +28,14 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^26.0.1",
+    "@types/pg": "^8.20.0",
     "fastify": "^5.9.0",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "pg": "^8.22.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
   }
 }
