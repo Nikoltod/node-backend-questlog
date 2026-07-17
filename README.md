@@ -19,33 +19,33 @@ Each lab is intentionally small and focuses on one core backend concept.
 
 ### Node.js Runtime
 
-- [Lab 01 – Runtime Basics](./01-runtime-basics)
-- [Lab 02 – Sync vs Async](./02-sync-vs-async)
-- [Lab 03 – Event Loop Ordering](./03-event-loop-ordering)
-- [Lab 04 – Partitioning CPU Work](./04-partitioning-cpu-work)
-- [Lab 05 – Offloading Work with Worker Threads](./05-offloading-worker-threads)
-- [Lab 06 – The libuv Thread Pool](./06-libuv-threadpool)
-- [Lab 07 – Streams and Backpressure](./07-streams-and-backpressure)
-- [Lab 08 – Buffers and Binary Data](./08-buffers-and-binary-data)
+- [Lab 01 – Runtime Basics](./labs/01-runtime-basics)
+- [Lab 02 – Sync vs Async](./labs/02-sync-vs-async)
+- [Lab 03 – Event Loop Ordering](./labs/03-event-loop-ordering)
+- [Lab 04 – Partitioning CPU Work](./labs/04-partitioning-cpu-work)
+- [Lab 05 – Offloading Work with Worker Threads](./labs/05-offloading-worker-threads)
+- [Lab 06 – The libuv Thread Pool](./labs/06-libuv-threadpool)
+- [Lab 07 – Streams and Backpressure](./labs/07-streams-and-backpressure)
+- [Lab 08 – Buffers and Binary Data](./labs/08-buffers-and-binary-data)
 
 ### HTTP and Fastify
 
-- [Lab 09 – Raw HTTP Server](./09-raw-http-server)
-- [Lab 10 – Fastify API](./10-fastify-api)
-- [Lab 11 – Validation and Errors](./11-validation-and-errors)
-- [Lab 12 – Fastify Project Structure](./12-fastify-project-structure)
+- [Lab 09 – Raw HTTP Server](./labs/09-raw-http-server)
+- [Lab 10 – Fastify API](./labs/10-fastify-api)
+- [Lab 11 – Validation and Errors](./labs/11-validation-and-errors)
+- [Lab 12 – Fastify Project Structure](./labs/12-fastify-project-structure)
 
 ### Backend Architecture
 
-- [Lab 13 – Services and Repositories](./13-services-and-repositories)
-- [Lab 14 – Modular Feature Structure](./14-modular-feature-structure)
+- [Lab 13 – Services and Repositories](./labs/13-services-and-repositories)
+- [Lab 14 – Modular Feature Structure](./labs/14-modular-feature-structure)
 
 ### Persistence and Databases
 
-- [Lab 15 – File Persistence](./15-file-persistence)
-- [Lab 16 – PostgreSQL with Docker](./16-postgresql-with-docker)
-- [Lab 17 – Database Migrations](./17-database-migrations)
-- [Lab 18 – Environment Configuration](./18-environment-configuration)
+- [Lab 15 – File Persistence](./labs/15-file-persistence)
+- [Lab 16 – PostgreSQL with Docker](./labs/16-postgresql-with-docker)
+- [Lab 17 – Database Migrations](./labs/17-database-migrations)
+- [Lab 18 – Environment Configuration](./labs/18-environment-configuration)
 
 ## What Each Lab Contains
 
