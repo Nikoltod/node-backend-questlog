@@ -22,7 +22,9 @@
     "lab:file-persistence": "tsx labs/15-file-persistence/src/server.ts",
     "lab:postgres": "tsx labs/16-postgres-persistence/src/server.ts",
     "lab:migrate": "tsx labs/17-database-migrations/src/db/migrate.ts",
-    "lab:migrations": "tsx labs/17-database-migrations/src/server.ts"
+    "lab:migrations": "tsx labs/17-database-migrations/src/server.ts",
+    "lab:env:migrate": "tsx labs/18-environment-configuration/src/db/migrate.ts",
+    "lab:env": "tsx labs/18-environment-configuration/src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -36,6 +38,7 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "pg": "^8.22.0",
     "sqlite": "^5.1.1",
     "sqlite3": "^6.0.1"

@@ -86,7 +86,20 @@ Some database labs require a running PostgreSQL container.
 node-backend-questlog/
 ├── 01-runtime-basics/
 ├── 02-sync-vs-async/
-├── ...
+├── 03-event-loop-ordering/
+├── 04-partitioning-cpu-work/
+├── 05-offloading-worker-threads/
+├── 06-libuv-threadpool/
+├── 07-streams-and-backpressure/
+├── 08-buffers-and-binary-data/
+├── 09-raw-http-server/
+├── 10-fastify-api/
+├── 11-validation-and-errors/
+├── 12-fastify-project-structure/
+├── 13-services-and-repositories/
+├── 14-modular-feature-structure/
+├── 15-file-persistence/
+├── 16-postgresql-with-docker/
 ├── 17-database-migrations/
 ├── 18-environment-configuration/
 ├── package.json
