@@ -20,7 +20,9 @@
     "lab:layers": "tsx labs/13-services-and-repositories/src/server.ts",
     "lab:modules": "tsx labs/14-modular-feature-structure/src/server.ts",
     "lab:file-persistence": "tsx labs/15-file-persistence/src/server.ts",
-    "lab:postgres": "tsx labs/16-postgres-persistence/src/server.ts"
+    "lab:postgres": "tsx labs/16-postgres-persistence/src/server.ts",
+    "lab:migrate": "tsx labs/17-database-migrations/src/db/migrate.ts",
+    "lab:migrations": "tsx labs/17-database-migrations/src/server.ts"
   },
   "keywords": [],
   "author": "",
