@@ -1,11 +1,11 @@
 import Fastify from "fastify";
 import type { FastifyError } from "fastify";
 
-import { createPool } from "./db/database.ts";
-import { AppError } from "./shared/errors/app-error.ts";
-import { QuestRepository } from "./modules/quests/quest.repository.ts";
-import { QuestService } from "./modules/quests/quest.service.ts";
-import { registerQuestRoutes } from "./modules/quests/quest.routes.ts";
+import { createPool } from "./db/database";
+import { AppError } from "./shared/errors/app-error";
+import { QuestRepository } from "./modules/quests/quest.repository";
+import { QuestService } from "./modules/quests/quest.service";
+import { registerQuestRoutes } from "./modules/quests/quest.routes";
 
 export async function buildApp() {
   const app = Fastify({
