@@ -24,17 +24,18 @@
     "lab:migrate": "tsx labs/17-database-migrations/src/db/migrate.ts",
     "lab:migrations": "tsx labs/17-database-migrations/src/server.ts",
     "lab:env:migrate": "tsx labs/18-environment-configuration/src/db/migrate.ts",
-    "lab:env": "tsx labs/18-environment-configuration/src/server.ts"
+    "lab:env": "tsx labs/18-environment-configuration/src/server.ts",
+    "lab:health-checks": "tsx labs/19-health-checks/src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@types/node": "^26.0.1",
+    "@types/node": "^26.1.1",
     "@types/pg": "^8.20.0",
-    "fastify": "^5.9.0",
-    "tsx": "^4.22.4",
+    "fastify": "^5.10.0",
+    "tsx": "^4.23.1",
     "typescript": "^6.0.3"
   },
   "dependencies": {

@@ -46,6 +46,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 16 – PostgreSQL with Docker](./labs/16-postgresql-with-docker)
 - [Lab 17 – Database Migrations](./labs/17-database-migrations)
 - [Lab 18 – Environment Configuration](./labs/18-environment-configuration)
+- [Lab 19 – Health Checks](./labs/19-health-checks)
 
 ## What Each Lab Contains
 
