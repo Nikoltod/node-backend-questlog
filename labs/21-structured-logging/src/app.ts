@@ -20,7 +20,7 @@ export function buildApp(
 ): FastifyInstance {
   const app = Fastify({
     logger: {
-      level: config.loglevel,
+      level: config.logLevel,
     },
 
     /*
