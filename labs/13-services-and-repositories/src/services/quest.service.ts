@@ -25,9 +25,6 @@ export class QuestService {
         const quest = this.questRepository.create({
             title,
             difficulty: input.difficulty,
-            completed: false,
-            createdAt: new Date().toISOString(),
-            completedAt: null
         });
 
         return {

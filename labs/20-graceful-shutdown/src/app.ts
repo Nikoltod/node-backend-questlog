@@ -18,6 +18,16 @@ export function buildApp(
 ): FastifyInstance {
     const app = Fastify({
         logger: true,
+        /*
+        * Close idle keep-alive connections during shutdown,
+        * but do not destroy connections with active requests.
+        */
+        forceCloseConnections: "idle",
+
+        /*
+         * Once app.close() begins, new requests receive 503.
+         */
+        return503OnClosing: true,
     });
 
     app.addHook("onRequest", async (request, reply) => {

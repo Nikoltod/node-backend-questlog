@@ -27,12 +27,12 @@ app.get("/quests", async () => {
 });
 
 app.post<{ Body: {
-    title?:string;
-};}>("/quests", async (request: { body: { title: string; }; }, response: { status: (arg0: number) => { (): any; new(): any; send: { (arg0: { status: string | Quest; message: string; }): any; new(): any; }; }; }) => {
+    title?: string;
+}; }>('/quests', async (request, reply) => {
     const title = request.body.title?.trim();
     
     if (!title) {
-        return response.status(400).send({
+        return reply.status(400).send({
             status: "VALIDATION_ERROR",
             message: "Please provide a title for the quest.",
         })
@@ -49,7 +49,7 @@ app.post<{ Body: {
     nextQuestId++;
     quests.push(quest);
 
-    return response.status(201).send({
+    return reply.status(201).send({
         status: quest,
         message: "Quest created successfully.",
     });
@@ -60,12 +60,11 @@ app.patch<{
     Params: { 
         id: string;
  };
-}>("/quests/:id/complete", async (request: { params: { id: string; }; }, response: { status: (arg0: number) => {
-     (): any; new(): any; send: { (arg0: { error: string; message: string; }): any; new(): any; }; }; }) => {
+}>('/quests/:id/complete', async (request, reply) => {
         const questId = Number(request.params.id);
 
         if (Number.isNaN(questId)) {
-            return response.status(400).send({
+            return reply.status(400).send({
                 error: "VALIDATION_ERROR",
                 message: "Quest ID must be a number.",
             });
@@ -74,7 +73,7 @@ app.patch<{
         const quest = quests.find((item) => item.id === questId);
 
         if (!quest) {
-            return response.status(404).send({
+            return reply.status(404).send({
                 error: "NOT_FOUND",
                 message: `Quest was not found.`,
             });

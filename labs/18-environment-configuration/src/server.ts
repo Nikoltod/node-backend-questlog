@@ -1,10 +1,13 @@
 import { buildApp } from "./app";
+import { loadConfig } from "./config/config";
 
 async function main() {
+    const config = loadConfig();
+
     const app = await buildApp();
 
     await app.listen({
-        port: 3000,
+        port: config.port,
         host: "0.0.0.0",
     });
 
