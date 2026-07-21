@@ -47,6 +47,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 17 – Database Migrations](./labs/17-database-migrations)
 - [Lab 18 – Environment Configuration](./labs/18-environment-configuration)
 - [Lab 19 – Health Checks](./labs/19-health-checks)
+- [Lab 20 – Graceful Shutdown](./labs/20-graceful-shutdown)
 
 ## What Each Lab Contains
 
