@@ -26,7 +26,8 @@
     "lab:env:migrate": "tsx labs/18-environment-configuration/src/db/migrate.ts",
     "lab:env": "tsx labs/18-environment-configuration/src/server.ts",
     "lab:health-checks": "tsx labs/19-health-checks/src/server.ts",
-    "lab:graceful-shutdown": "node --import tsx labs/20-graceful-shutdown/src/server.ts"
+    "lab:graceful-shutdown": "node --import tsx labs/20-graceful-shutdown/src/server.ts",
+    "lab:logging": "node --import tsx labs/21-structured-logging/src/server.ts"
   },
   "keywords": [],
   "author": "",
