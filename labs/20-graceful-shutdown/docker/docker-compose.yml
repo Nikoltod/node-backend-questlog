@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: node_backend_questlog_postgres_lab20
+
+    environment:
+      POSTGRES_USER: questlog
+      POSTGRES_PASSWORD: questlog
+      POSTGRES_DB: questlog
+
+    ports:
+      - "5434:5432"
+
+    volumes:
+      - lab20-postgres-data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U questlog -d questlog"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  lab20-postgres-data: {}

@@ -11,7 +11,7 @@ const app = buildApp();
  * The pool emits an error in that situation. Handling the event
  * prevents an unexpected pool error from crashing Node.js.
  */
-databasePool.on("error", (error) => {
+databasePool.on("error", (error: any) => {
   app.log.error(
     {
       err: error,
