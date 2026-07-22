@@ -1,6 +1,5 @@
 import { fileURLToPath } from "node:url";
 import { config as loadEnvironment } from "dotenv";
-import { LogLevel } from "fastify";
 
 const environmentFilePath = fileURLToPath(
   new URL("../.env", import.meta.url),
@@ -38,7 +37,7 @@ const allowedLogLevels = [
   "silent",
 ] as const;
 
-type logLevel = (typeof allowedLogLevels)[number];
+type LogLevel = (typeof allowedLogLevels)[number];
 
 function readLogLevels(): LogLevel {
   const value = process.env.LOG_LEVEL ?? "info";
