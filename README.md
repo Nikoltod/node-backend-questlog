@@ -50,6 +50,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 20 – Graceful Shutdown](./labs/20-graceful-shutdown)
 - [Lab 21 - Structured Logging and Request IDs](./labs/21-structured-logging/)
 - [Lab 22 - Metrics and Prometheus](./labs/22-metrics-and-prometheus/)
+- [Lab 23 - Load testing and event loop](./labs/23-load-testing-and-event-loop/)
 
 ## What Each Lab Contains
 
@@ -110,6 +111,7 @@ node-backend-questlog/
 ├── 20-graceful-shutdown/
 ├── 21-structured-logging/
 ├── 22-metrics-and-prometheus/
+├── 23-load-testing-and-event-loop/
 ├── package.json
 ├── tsconfig.json
 └── README.md
