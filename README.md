@@ -49,6 +49,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 19 – Health Checks](./labs/19-health-checks)
 - [Lab 20 – Graceful Shutdown](./labs/20-graceful-shutdown)
 - [Lab 21 - Structured Logging and Request IDs](./labs/21-structured-logging/)
+- [Lab 22 - Metrics and Prometheus](./labs/22-metrics-and-prometheus/)
 
 ## What Each Lab Contains
 
@@ -108,6 +109,7 @@ node-backend-questlog/
 ├── 19-health-checks/
 ├── 20-graceful-shutdown/
 ├── 21-structured-logging/
+├── 22-metrics-and-prometheus/
 ├── package.json
 ├── tsconfig.json
 └── README.md
