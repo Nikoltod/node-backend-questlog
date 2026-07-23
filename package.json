@@ -28,7 +28,11 @@
     "lab:health-checks": "tsx labs/19-health-checks/src/server.ts",
     "lab:graceful-shutdown": "node --import tsx labs/20-graceful-shutdown/src/server.ts",
     "lab:logging": "node --import tsx labs/21-structured-logging/src/server.ts",
-    "lab:metrics": "node --import tsx labs/22-metrics-and-prometheus/src/server.ts"
+    "lab:metrics": "node --import tsx labs/22-metrics-and-prometheus/src/server.ts",
+    "lab:load-testing": "node --import tsx labs/23-load-testing-and-event-loop/src/server.ts",
+    "load:ping": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/ping",
+    "load:async": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/async-delay/100",
+    "load:blocking": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/blocking/50"
   },
   "keywords": [],
   "author": "",

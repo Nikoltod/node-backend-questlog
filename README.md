@@ -50,7 +50,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 20 – Graceful Shutdown](./labs/20-graceful-shutdown)
 - [Lab 21 - Structured Logging and Request IDs](./labs/21-structured-logging/)
 - [Lab 22 - Metrics and Prometheus](./labs/22-metrics-and-prometheus/)
-- [Lab 23 - Load testing and event loop](./labs/23-load-testing-and-event-loop/)
+- [Lab 23 - Load Testing and Event Loop Diagnostics](./labs/23-load-testing-and-event-loop/)
 
 ## What Each Lab Contains
 
