@@ -52,6 +52,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 22 - Metrics and Prometheus](./labs/22-metrics-and-prometheus/)
 - [Lab 23 - Load Testing and Event Loop Diagnostics](./labs/23-load-testing-and-event-loop/)
 - [Lab 24 - Timeouts and Cancellation](./labs/24-timeouts-and-cancellation/)
+- [Lab 25 - Retries and Backoff](./labs/25-retries-and-backoff/)
 
 ## What Each Lab Contains
 
@@ -114,6 +115,7 @@ node-backend-questlog/
 ├── 22-metrics-and-prometheus/
 ├── 23-load-testing-and-event-loop/
 ├── 24-timeouts-and-cancellation/
+├── 25-retries-and-backoff/
 ├── package.json
 ├── tsconfig.json
 └── README.md
