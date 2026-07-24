@@ -32,7 +32,8 @@
     "lab:load-testing": "node --import tsx labs/23-load-testing-and-event-loop/src/server.ts",
     "load:ping": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/ping",
     "load:async": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/async-delay/100",
-    "load:blocking": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/blocking/50"
+    "load:blocking": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/blocking/50",
+    "lab:timeouts": "node --import tsx labs/24-timeouts-and-cancellation/src/server.ts"
   },
   "keywords": [],
   "author": "",
