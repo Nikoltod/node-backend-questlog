@@ -34,7 +34,8 @@
     "load:async": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/async-delay/100",
     "load:blocking": "autocannon -c 20 -d 10 http://127.0.0.1:3000/demo/blocking/50",
     "lab:timeouts": "node --import tsx labs/24-timeouts-and-cancellation/src/server.ts",
-    "lab:retries": "node --import tsx labs/25-retries-and-backoff/src/server.ts"
+    "lab:retries": "node --import tsx labs/25-retries-and-backoff/src/server.ts",
+    "lab:circuit-breaker": "node --import tsx labs/26-circuit-breaker/src/server.ts"
   },
   "keywords": [],
   "author": "",

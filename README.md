@@ -53,6 +53,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 23 - Load Testing and Event Loop Diagnostics](./labs/23-load-testing-and-event-loop/)
 - [Lab 24 - Timeouts and Cancellation](./labs/24-timeouts-and-cancellation/)
 - [Lab 25 - Retries and Backoff](./labs/25-retries-and-backoff/)
+- [Lab 26 - Circuit Breaker](./labs/26-circuit-breaker/)
 
 ## What Each Lab Contains
 
@@ -116,6 +117,7 @@ node-backend-questlog/
 ├── 23-load-testing-and-event-loop/
 ├── 24-timeouts-and-cancellation/
 ├── 25-retries-and-backoff/
+├── 26-circuit-breaker/
 ├── package.json
 ├── tsconfig.json
 └── README.md
