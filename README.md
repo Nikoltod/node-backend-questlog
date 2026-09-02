@@ -54,6 +54,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 24 - Timeouts and Cancellation](./labs/24-timeouts-and-cancellation/)
 - [Lab 25 - Retries and Backoff](./labs/25-retries-and-backoff/)
 - [Lab 26 - Circuit Breaker](./labs/26-circuit-breaker/)
+- [Lab 27 - Bulkhead and Concurrency Limiting](./labs/27-bulkhead-concurrency/)
 
 ## What Each Lab Contains
 
