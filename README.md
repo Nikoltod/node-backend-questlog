@@ -119,6 +119,7 @@ node-backend-questlog/
 ├── 24-timeouts-and-cancellation/
 ├── 25-retries-and-backoff/
 ├── 26-circuit-breaker/
+├── 27-bulkhead-concurrency/
 ├── package.json
 ├── tsconfig.json
 └── README.md
