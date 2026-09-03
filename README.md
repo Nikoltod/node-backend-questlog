@@ -45,12 +45,21 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 15 – File Persistence](./labs/15-file-persistence)
 - [Lab 16 – PostgreSQL with Docker](./labs/16-postgresql-with-docker)
 - [Lab 17 – Database Migrations](./labs/17-database-migrations)
+
+### Service Operations
+
 - [Lab 18 – Environment Configuration](./labs/18-environment-configuration)
 - [Lab 19 – Health Checks](./labs/19-health-checks)
 - [Lab 20 – Graceful Shutdown](./labs/20-graceful-shutdown)
+
+### Observability and Diagnostics
+
 - [Lab 21 - Structured Logging and Request IDs](./labs/21-structured-logging/)
 - [Lab 22 - Metrics and Prometheus](./labs/22-metrics-and-prometheus/)
 - [Lab 23 - Load Testing and Event Loop Diagnostics](./labs/23-load-testing-and-event-loop/)
+
+### Resilience Patterns
+
 - [Lab 24 - Timeouts and Cancellation](./labs/24-timeouts-and-cancellation/)
 - [Lab 25 - Retries and Backoff](./labs/25-retries-and-backoff/)
 - [Lab 26 - Circuit Breaker](./labs/26-circuit-breaker/)
