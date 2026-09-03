@@ -64,6 +64,7 @@ Each lab is intentionally small and focuses on one core backend concept.
 - [Lab 25 - Retries and Backoff](./labs/25-retries-and-backoff/)
 - [Lab 26 - Circuit Breaker](./labs/26-circuit-breaker/)
 - [Lab 27 - Bulkhead and Concurrency Limiting](./labs/27-bulkhead-concurrency/)
+- [Lab 28 - Idempotency and Duplicate Request Protection](./labs/28-idempotency/)
 
 ## What Each Lab Contains
 
@@ -129,6 +130,7 @@ node-backend-questlog/
 ├── 25-retries-and-backoff/
 ├── 26-circuit-breaker/
 ├── 27-bulkhead-concurrency/
+├── 28-idempotency/
 ├── package.json
 ├── tsconfig.json
 └── README.md

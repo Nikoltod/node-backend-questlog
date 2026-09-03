@@ -36,7 +36,8 @@
     "lab:timeouts": "node --import tsx labs/24-timeouts-and-cancellation/src/server.ts",
     "lab:retries": "node --import tsx labs/25-retries-and-backoff/src/server.ts",
     "lab:circuit-breaker": "node --import tsx labs/26-circuit-breaker/src/server.ts",
-    "lab:bulkhead": "node --import tsx labs/27-bulkhead-concurrency/src/server.ts"
+    "lab:bulkhead": "node --import tsx labs/27-bulkhead-concurrency/src/server.ts",
+    "lab:idempotency": "node --import tsx labs/28-idempotency/src/server.ts"
   },
   "keywords": [],
   "author": "",
